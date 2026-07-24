@@ -1,16 +1,17 @@
-# React + Vite
+# Branch 네이밍 => 컴포넌트 단위
+# Commit
+feat: 새로운 기능 추가
+fix: 버그 수정
+docs: 문서 수정
+style: 코드 스타일 변경 (코드 포매팅, 세미콜론 누락 등)
+design: 사용자 UI 디자인 변경 (CSS 등)
+test: 테스트 코드, 리팩토링 (Test Code)
+refactor: 리팩토링 (Production Code)
+build: 빌드 파일 수정
+ci: CI 설정 파일 수정
+perf: 성능 개선
+chore: 자잘한 수정이나 빌드 업데이트
+rename: 파일 혹은 폴더명을 수정만 한 경우
+remove: 파일을 삭제만 한 경우
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
-
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the Oxlint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+ex) fix-작업내용

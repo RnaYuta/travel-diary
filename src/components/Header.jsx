@@ -1,3 +1,5 @@
+import './Header.css'
+
 export default function Header({totalTrips, totalCountries}) {
     return(
         <header className={'header'}>

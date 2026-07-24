@@ -1,12 +1,13 @@
-function TravelCard({travel,onEdit,onDelete}) {
-    const stars ='⭐'.repeat(travel.rating);
+import './TravelList.css'
+function TravelCard({travel, onEdit, onDelete}) {
+    const stars = '⭐'.repeat(travel.rating);
 
-    return(
+    return (
         <div className='travel-card'>
             <div className='card-image'>
                 {travel.image ? (
-                    <img src={travel.image} alt={travel.name} />
-                ):(
+                    <img src={travel.image} alt={travel.name}/>
+                ) : (
                     <div className='no-image'>📷</div>
                 )}
             </div>
@@ -16,7 +17,7 @@ function TravelCard({travel,onEdit,onDelete}) {
                 <p className='location'>📍 {travel.city}, {travel.country}</p>
                 <p className='date'>📅 {travel.date}</p>
                 <p className='rating'>{stars}</p>
-                {travel.memo && <p className='memo'>{travle.memo}</p> }
+                {travel.memo && <p className='memo'>{travel.memo}</p>}
             </div>
 
             <div className='card-actions'>
